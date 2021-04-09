@@ -105,8 +105,6 @@ namespace FizzBuzz.Implementation
                     }
                 }
             }
-
-            yield return new FizzBuzzResponse { Success = true }; // no result - but all was successful.
         }
     }
 }
